@@ -10,5 +10,6 @@ WriteMakefile(
 	PREREQ_PM	=> {
 				'Date::Simple'		=> 0,
 				'Class::Accessor'	=> 0,
+				'Time::Seconds'		=> 0,
 			},			
 );

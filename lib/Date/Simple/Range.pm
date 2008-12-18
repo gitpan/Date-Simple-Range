@@ -8,7 +8,7 @@ use base qw/ Class::Accessor /;
 
 __PACKAGE__->mk_accessors(qw/ start end index /);
 
-our $VERSION = '1.0'; 
+our $VERSION = '1.1'; 
 
 use overload
 	'fallback'	=> 1,
